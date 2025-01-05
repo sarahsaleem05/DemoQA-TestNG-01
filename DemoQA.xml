@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="DemoQASuite" parallel="false" thread-count="1">
+    <test name="DemoQA-1" preserve-order="true">
+        <classes>
+            <class name="DemoQA">
+                <methods>
+                    <include name="LaunchWebDemoQA"></include>
+                    <include name="Scroll"></include>
+                    <include name="NavigateToElements"></include>
+                    <include name="ScrollRadio"></include>
+                    <include name="RadioButton"></include>
+                    <include name="ImpressiveRadioButton"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <test name="DemoQA-2" preserve-order="true">
+        <classes>
+            <class name="DemoQA">
+                <methods>
+                    <include name="LaunchWebDemoQA"></include>
+                    <include name="Scroll"></include>
+                    <include name="NavigateToElements"></include>
+                    <include name="Buttons"></include>
+                    <include name="DoubleClick"></include>
+                    <include name="ScrollButtons"></include>
+                    <include name="RightClick"></include>
+                    <include name="Click"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
