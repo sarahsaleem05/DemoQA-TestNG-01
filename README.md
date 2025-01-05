@@ -1,4 +1,5 @@
 Test Automation with TestNG
+
 • This Java program automates UI testing of the DemoQA website using Selenium WebDriver and TestNG. It contains two test suites:
 
 Test Suite 1: 
