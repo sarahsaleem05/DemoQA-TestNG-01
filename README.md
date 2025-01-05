@@ -4,7 +4,7 @@
 
 
 
-✦ Test Suite 1: Radio Buttons
+# Test Suite 1: Radio Buttons
 
 • The website will open in a browser.
 
@@ -18,7 +18,7 @@
 
 
 
-✦ Test Suite 2: Buttons
+# Test Suite 2: Buttons
 
 • The website will open in a browser.
 
@@ -36,7 +36,7 @@
 
 
 
-► Notes
+# Notes
 
 • The program uses Selenium's Actions class for mouse actions like double-click and right-click.
 
